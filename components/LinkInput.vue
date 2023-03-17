@@ -4,7 +4,7 @@ const link = ref('')
 const router = useRouter()
 const go = () => {
   if (link.value)
-    router.push(`/hi/${encodeURIComponent(link.value)}`)
+    router.push(`/${encodeURIComponent(link.value)}`)
 }
 </script>
 

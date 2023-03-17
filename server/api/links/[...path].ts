@@ -7,6 +7,6 @@ export default defineEventHandler((event) => {
   }
   return {
     code: 500,
-    url: '',
+    url: event.context.params?.path,
   }
 })
