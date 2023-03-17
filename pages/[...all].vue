@@ -3,7 +3,6 @@ definePageMeta({
   middleware: ['redirect'],
 })
 
-// $fetch('/api/links/:path', { params: { path: 'test' } })
 const router = useRouter()
 </script>
 
