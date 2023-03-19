@@ -3,7 +3,7 @@ useHead({
   title: 'Link it!',
   link: [
     {
-      rel: 'icon', type: 'image/png', href: '/nuxt.png',
+      rel: 'icon', type: 'image/svg', href: '/favicon.svg',
     },
   ],
 })
