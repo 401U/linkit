@@ -1,10 +1,13 @@
 <script setup lang="ts">
 const link = ref('')
 
-const router = useRouter()
-const go = () => {
-  if (link.value)
-    router.push(`/api/links/${encodeURIComponent(link.value)}`)
+async function go() {
+  const data = await $fetch('/api/links/new', {
+    method: 'POST',
+    body: {
+      url: link.value,
+    },
+  })
 }
 </script>
 
