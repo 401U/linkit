@@ -12,8 +12,8 @@ async function go() {
 </script>
 
 <template>
-  <div mt-50>
-    <div text-5xl font-bold break-words bg-red sm:bg-green>
+  <div class="sm:mt-50 mt-20">
+    <div text-5xl font-bold break-wordsn>
       Short Your Links
       With Ease
     </div>
@@ -23,7 +23,7 @@ async function go() {
         v-model="link"
         placeholder="Paste your link here"
         type="text" autocomplete="off"
-        px-4 py-2 w-450px
+        px-4 py-2 sm:w-450px w-full
         text-center bg-transparent
         border="~ rounded coolgray/50"
         outline-green
