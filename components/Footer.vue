@@ -7,6 +7,6 @@
     gap-3
   >
     <a i-carbon-logo-github href="https://github.com/401U/linkit" target="_blank" />
-    <DarkToggle />
+    <i i-carbon-data-format title="hello" />
   </div>
 </template>

@@ -12,8 +12,8 @@ async function go() {
 </script>
 
 <template>
-  <div>
-    <div text-5xl font-bold break-words>
+  <div mt-50>
+    <div text-5xl font-bold break-words bg-red sm:bg-green>
       Short Your Links
       With Ease
     </div>
@@ -29,14 +29,6 @@ async function go() {
         outline-green
         @keydown.enter="go"
       >
-      <button
-        mx-3 text-sm btn
-        :disabled="!link"
-        @click="go"
-      >
-        GO
-      </button>
     </div>
-    <!-- <LinkInput /> -->
   </div>
 </template>

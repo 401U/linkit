@@ -1,12 +1,10 @@
 import { TopNav } from '~~/.nuxt/components';
 
 <template>
-  <TopNav />
-  <main class="py-20 px-10 text-center">
+  <main class="py-2 px-10 text-center flex flex-col min-h-full gap-1">
+    <TopNav />
     <slot />
+    <div flex-grow-1 />
     <Footer />
-    <div class="mt-5 mx-auto text-center text-sm">
-      [Default Layout]
-    </div>
   </main>
 </template>
