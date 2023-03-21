@@ -13,6 +13,7 @@ specifiers:
   eslint: ^8.36.0
   jsdom: ^21.1.1
   nuxt: ^3.3.1
+  onu-ui: 1.0.13-alpha
   pinia: ^2.0.33
   taze: ^0.9.0
   typescript: ^5.0.2
@@ -36,6 +37,7 @@ devDependencies:
   eslint: 8.36.0
   jsdom: 21.1.1
   nuxt: 3.3.1_j4766f7ecgqbon3u7zlxn5zszu
+  onu-ui: 1.0.13-alpha_vue@3.2.47
   pinia: 2.0.33_p4srtwdgezcoeovfcc2yxzvaue
   taze: 0.9.0
   typescript: 5.0.2
@@ -2451,6 +2453,29 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
+    dev: true
+
+  /@onu-ui/components/1.0.13-alpha_vue@3.2.47:
+    resolution: {integrity: sha512-4qKqrLNUH7d89U3TLalj2u1clrzD7ZoIzStk9xrOGVee6RwQzW8XQ32idCjPNQXGkrOKEMZzB5HyBjYVQA+tJA==}
+    dependencies:
+      '@onu-ui/preset': 1.0.13-alpha
+      '@onu-ui/utils': 1.0.13-alpha_vue@3.2.47
+      '@vueuse/core': 9.13.0_vue@3.2.47
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
+
+  /@onu-ui/preset/1.0.13-alpha:
+    resolution: {integrity: sha512-cnVxOF9l9/81CS6c6Xl7Vr6QCp8JB5mtK6VPXzVCnI1EvgbZhydkMwsztsg10mx9QMpTS3OTegwJVeACbzTfMg==}
+    dev: true
+
+  /@onu-ui/utils/1.0.13-alpha_vue@3.2.47:
+    resolution: {integrity: sha512-jFo/0pU6JDeIhQ+8ko6vihAyFHiYR88nOEBUsHAoMp1SA+/qoLC/x1RsYqFvNiAZ4Fi4MSNDTDClxBT6jaGtzQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: 3.2.47
     dev: true
 
   /@opentelemetry/api/1.4.1:
@@ -7882,6 +7907,15 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       mimic-fn: 4.0.0
+    dev: true
+
+  /onu-ui/1.0.13-alpha_vue@3.2.47:
+    resolution: {integrity: sha512-2z5K6IR7Tj5ioDJmoSqVvHDtFNtK2fOOolxxTpCb6F4Ou1enspBog6KSNcEk3FNAEFaPqZdDR8osEheRfT1fRw==}
+    dependencies:
+      '@onu-ui/components': 1.0.13-alpha_vue@3.2.47
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
     dev: true
 
   /open/8.4.0:
