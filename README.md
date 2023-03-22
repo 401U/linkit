@@ -2,6 +2,22 @@
 
 > An url shorten service written by nuxt.
 
+## TODO
+- [ ] Front end
+  - [ ] Homepage
+    - [ ] Mapbox (toggleable)
+  - [ ] About page
+  - [ ] Login
+    - [ ] Oauth
+  - [ ] Admin
+    - [ ] Dashboard
+    - [ ] Users
+    - [ ] Redirects
+    - [ ] Settings
+- [ ] Back end
+  - [ ] User
+  - [ ] Redirect maintance
+  - [ ] analytics
 
 ## Credit
 
