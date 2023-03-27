@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+  routeRules: {
+    '/**': { prerender: true },
+  },
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
