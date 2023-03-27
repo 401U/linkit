@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@7.29.3",
+  "packageManager": "pnpm@7.30.3",
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
@@ -17,7 +17,7 @@
     "@iconify-json/carbon": "^1.1.16",
     "@iconify-json/twemoji": "^1.1.11",
     "@nuxt/devtools": "^0.2.5",
-    "@nuxt/test-utils": "^3.3.1",
+    "@nuxt/test-utils": "^3.3.2",
     "@nuxtjs/color-mode": "^3.2.0",
     "@pinia/nuxt": "^0.4.7",
     "@unocss/nuxt": "^0.50.6",
@@ -26,13 +26,13 @@
     "jsdom": "^21.1.1",
     "nuxt": "^3.3.2",
     "pinia": "^2.0.33",
-    "taze": "^0.9.0",
+    "taze": "^0.9.1",
     "typescript": "^5.0.2",
-    "unplugin-auto-import": "^0.15.1",
+    "unplugin-auto-import": "^0.15.2",
     "unplugin-vue-components": "^0.24.1",
-    "vite": "^4.2.0",
-    "vitest": "^0.29.3",
+    "vite": "^4.2.1",
+    "vitest": "^0.29.7",
     "vue": "^3.2.47",
-    "webpack": "^5.76.2"
+    "webpack": "^5.76.3"
   }
 }
