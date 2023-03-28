@@ -8,7 +8,6 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
-import { presetOnu } from 'onu-ui'
 
 export default defineConfig({
   presets: [
@@ -25,7 +24,6 @@ export default defineConfig({
         mono: 'DM Mono',
       },
     }),
-    presetOnu(),
   ],
   transformers: [
     transformerDirectives(),
