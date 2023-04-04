@@ -10,20 +10,13 @@ useHead({
 </script>
 
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <main
+    bg-white text-black
+    dark="bg-#363532 text-white"
+    min-h-screen transition-500
+  >
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </main>
 </template>
-
-<style>
-html, body , #__nuxt{
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-html.dark {
-  background: #363532;
-  color: white;
-}
-</style>
