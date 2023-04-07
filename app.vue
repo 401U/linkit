@@ -12,7 +12,7 @@ useHead({
 <template>
   <main
     bg-white text-black
-    dark="bg-#363532 text-white"
+    dark="bg-#16161a text-white"
     min-h-screen transition-500
   >
     <NuxtLayout>

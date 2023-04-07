@@ -1,13 +1,17 @@
+<script setup lang="ts">
+const config = useAppConfig()
+</script>
+
 <template>
   <div
-    text="xl gray4"
+    text="sm gray4"
     m-5
-    flex
+    flex="~ col"
     justify-center
-    gap-3
+    gap-0
   >
-    <div text-sm>
-      Powered by <a href="https://github.com/401U/linkit">Linkit</a>
+    <div>
+      Powered by <a :href="config.sourcecode">Linkit</a>
     </div>
   </div>
 </template>

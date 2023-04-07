@@ -6,6 +6,5 @@ import { NuxtLink } from '~~/.nuxt/components';
     <span>Linkit</span>
     <div flex-grow-1 />
     <DarkToggle />
-    <NuxtLink i-carbon-user title="Login" to="/login" />
   </div>
 </template>
