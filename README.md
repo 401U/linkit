@@ -25,6 +25,6 @@
 - Sponsors:
 <p align="center">
   <a href="https://4o1.to/afdian">
-    <img src="https://raw.githubusercontent.com/401U/sponsors/master/sponsors.svg" alt="sponsors.svg">
+    <img src="https://cdn.jsdelivr.net/gh/401U/static/sponsors/en.svg" alt="sponsors.svg">
   </a>
 </p>
