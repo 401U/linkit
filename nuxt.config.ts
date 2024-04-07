@@ -6,10 +6,6 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxt/devtools',
   ],
-  experimental: {
-    reactivityTransform: true,
-    inlineSSRStyles: false,
-  },
   css: [
     '@unocss/reset/tailwind.css',
   ],
