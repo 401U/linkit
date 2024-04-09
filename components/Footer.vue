@@ -4,14 +4,15 @@ const config = useAppConfig()
 
 <template>
   <div
-    text="sm gray4"
+    text-sm
+    op50
     m-5
     flex="~ col"
     justify-center
     gap-0
   >
     <div>
-      Powered by <a :href="config.sourcecode">Linkit</a>
+      Powered by  <a :href="config.sourcecode"><i i-carbon-logo-github />Linkit</a>
     </div>
   </div>
 </template>
