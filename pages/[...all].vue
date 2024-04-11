@@ -2,7 +2,6 @@
 definePageMeta({
   middleware: ['redirect'],
 })
-
 const router = useRouter()
 </script>
 

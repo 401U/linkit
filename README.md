@@ -19,6 +19,8 @@
   - [ ] Redirect maintance
   - [ ] analytics
 
+- [ ] use[lucia](https://lucia-auth.com) as auth
+
 ## Credit
 
 - [Vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) for the awesome template.

@@ -10,30 +10,39 @@
     "up": "taze major -w",
     "postinstall": "nuxi prepare",
     "generate": "nuxi generate",
-    "test": "vitest",
-    "test:update": "vitest -u"
+    "db:generate": "drizzle-kit generate:sqlite",
+    "db:migrate": "wrangler d1 migrations apply linkit --local",
+    "db:migrate:prod": "wranger d1 migrations apply linkit"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.12.2",
     "@iconify-json/carbon": "^1.1.31",
     "@iconify-json/twemoji": "^1.1.15",
     "@nuxt/devtools": "^1.1.5",
-    "@nuxt/test-utils": "^3.12.0",
     "@nuxtjs/color-mode": "^3.3.3",
-    "@pinia/nuxt": "^0.5.1",
     "@unocss/nuxt": "^0.59.0",
     "@vueuse/nuxt": "^10.9.0",
+    "drizzle-kit": "^0.20.14",
     "eslint": "^8.0.0",
     "jsdom": "^24.0.0",
+    "nitro-cloudflare-dev": "^0.1.4",
     "nuxt": "^3.11.2",
-    "pinia": "^2.1.7",
     "taze": "^0.13.3",
     "typescript": "^5.4.4",
     "unplugin-auto-import": "^0.17.5",
     "unplugin-vue-components": "^0.26.0",
     "vite": "^4.0.0",
-    "vitest": "^1.4.0",
     "vue": "^3.4.21",
-    "webpack": "^5.91.0"
+    "wrangler": "^3.49.0"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240405.0",
+    "@lucia-auth/adapter-sqlite": "^3.0.1",
+    "@miniflare/d1": "^2.14.2",
+    "arctic": "^1.5.0",
+    "drizzle-orm": "^0.30.4",
+    "lucia": "^3.1.1",
+    "oslo": "^1.2.0",
+    "vue3-toastify": "^0.2.1"
   }
 }
